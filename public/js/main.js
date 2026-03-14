@@ -66,7 +66,7 @@ window.addEventListener('DOMContentLoaded', () => {
         confetti({ particleCount: 200, spread: 80, origin: { y: 0.7 }, colors: ['#b8860b', '#1a1a1a', '#ffffff'] });
         this.style.display = "none";
         
-        const note = "Happy Birthday! Sending you the biggest virtual hug today. Two years ago this April, a simple conversation about a series changed everything. Even though we’re miles apart, our bond has grown so much, and I’m so lucky to have you in my corner. Cheers to you, to us, and to the many more years of friendship ahead of us!";
+        const note = "Happy Birthday Phi Saao! Sending you the biggest virtual hug today. Two years ago this April, a simple conversation about a series changed everything. Even though we’re miles apart, our bond has grown so much, and I’m so lucky to have you in my corner. Cheers to you, to us, and to the many more years of friendship ahead of us!";
         
         typeWriter(note, 0);
     });

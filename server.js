@@ -6,8 +6,8 @@ app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
 app.get('/', (req, res) => {
-    const photos = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg']; 
-    res.render('index', { name: "Sonika", photos });
+    const photos = ['pic1.png', 'pic2.png', 'pic3.png', 'pic4.png']; 
+    res.render('index', { name: "Muskan Disha", photos });
 });
 
 const PORT = process.env.PORT || 3000;
